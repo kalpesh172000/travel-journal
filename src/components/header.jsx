@@ -3,7 +3,7 @@ export default function Header() {
     return (
         <>
             <header>
-                <PublicIcon />
+                <PublicIcon className="globe-icon"/>
                 <span className="title">my travel journal.</span>
             </header>
         </>

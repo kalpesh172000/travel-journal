@@ -12,3 +12,73 @@ header {
     font-size: 0.9rem;
 }
 
+/* -------------------------------- COMPONENTS -------------------------------- */
+
+/* ------------------- ENTRY ------------------- */
+.entry {
+    color: #2B283A;
+    display: flex;
+    flex-direction: row;
+    max-width: 470px;
+    align-items: center;
+    gap: 19px;
+    background-color: transparent;
+}
+
+.entry-img {
+    width:  125px;
+    height: 168px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.entry-text-location {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.gps-location {
+    color: #918E9B;
+    text-decoration: underline;
+    text-transform: capitalize;
+    line-height: 1.2;
+}
+
+.country-name {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.marker-icon {
+    color: #F55A5A;
+}
+
+
+.entry-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 17px;
+    line-height: 1.2;
+}
+
+.entry-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.entry-time {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 9px;
+}
+
+.entry-description {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
