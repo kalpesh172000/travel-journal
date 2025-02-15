@@ -12,6 +12,16 @@ header {
     font-size: 0.9rem;
 }
 
+main {
+    margin-top: 45px;
+    padding-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    align-items: center;
+    padding-inline: 40px;
+}
+
 /* -------------------------------- COMPONENTS -------------------------------- */
 
 /* ------------------- ENTRY ------------------- */
@@ -20,6 +30,7 @@ header {
     display: flex;
     flex-direction: row;
     max-width: 470px;
+    width: 100%;
     align-items: center;
     gap: 19px;
     background-color: transparent;
